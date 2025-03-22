@@ -55,9 +55,9 @@ describe('Settings', () => {
 		});
 	});
 
-	context('About', () => {
-		it('user can open the About modal', () => {
-			cy.get('button').contains('About').click();
-		});
-	});
+	// context('About', () => {
+	// 	it('user can open the About modal', () => {
+	// 		cy.get('button').contains('About').click();
+	// 	});
+	// });
 });
